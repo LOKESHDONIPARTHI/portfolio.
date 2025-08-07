@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body{
+    background-color:rgb(152, 151, 176);
+    margin:0;
+    color:white;
+
+}
+.body h1{
+    color:black;
+}
+.nav-bar{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+.nav-bar-left{
+    font-family: "Oswald", sans-serif;
+    display:flex;
+    color:rgb(0, 0, 0);
+    padding-left:15px;
+}
+.nav-bar-right button{
+    padding:25px;
+    text-decoration: none;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 15px;
+    margin:5px;
+}
+.nav-bar-right {
+    display:flex;
+    flex-direction:center;
+    align-items: center;
+    text-decoration:none;
+}
+.navbar-right a:hover{
+    color:rgb(233, 229, 229);
+    border:2px solid black;
+    padding:5px;
+    background-color: black;
+    
+}
+.navbar-right a{
+    text-decoration: none;
+    margin:20px;
+    font-size:25px;
+}
+.home{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.homeleft{
+    font-family: "Oswald", sans-serif;
+    width:50vw;
+    padding-top:10%;
+    padding-left:25px;
+    text-align:right;
+    font-size: large;
+     padding-bottom:10%;
+     
+}
+.p1{
+    font-family: "Quicksand", sans-serif;
+}
+.homeright{
+    width:50vw;
+}
+
+.mypic {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 65%;
+    top: 125px; 
+    transform: translateX(-50%);
+    transition: top 1s ease; 
+    z-index: 1; 
+    padding-top: 100px;
+}
+.education {
+    padding:20px;
+    justify-content: space-between;
+    text-align: center;
+    font-size: large;
+}
+.education p1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.education p{
+    justify-content: space-between;
+    border:5px solid black;
+    padding: 25px;
+    margin:5px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 13px;
+}
+.education p:hover{
+    padding:15px;
+      background-color:black;
+    color:  aliceblue;
+}
+.skills p{
+    padding-left: 50px;
+}
+.skills h1{
+    padding-top:20px;
+    padding-left: 50px;
+}
+.skills {
+    padding:20px;
+   justify-content: space-between;
+    text-align: center;
+    font-size: large;
+}
+.projects {
+    padding:2%;
+   justify-content: space-between;
+    text-align: center;
+    font-size: large;
+}
+.projects p{
+     padding:2px;
+}
+.certifications {
+    padding:20px;
+   justify-content: space-between;
+    text-align: center;
+    font-size: large;
+}
+.Certificationscert {
+  justify-content: space-between;
+}
+.achievements {
+    padding:20px;
+   justify-content: space-between;
+    text-align: center;
+    font-size: large;
+}
+.WorkshopsandInvolvements {
+    padding:20px;
+   justify-content: space-between;
+    text-align: center;
+    font-size: large;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 5px;
+}
+.suffix{
+    color: black;
+    font-size: large;
+    text-align: center;
+    padding:5px;
+}
+.socialaccs{
+      display:flex;
+     flex-direction:row;
+    justify-content: center;
+    align-items:center;
+}
